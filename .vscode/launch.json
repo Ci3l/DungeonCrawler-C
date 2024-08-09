@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug C File",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/dungeon_crawler",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "ignoreFailures": true,
+                    "text": "-enable-pretty-printing"
+                }
+            ],
+            "preLaunchTask": "build",
+            "miDebuggerPath": "/usr/local/bin/gdb", 
+            "internalConsoleOptions": "openOnSessionStart"
+        }
+    ]
+}

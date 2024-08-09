@@ -1,0 +1,44 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "/usr/local/Cellar/gcc/14.1.0_2/bin/gcc-14",
+            "args": [
+                "-o",
+                "${workspaceFolder}/dungeon_crawler",
+                "${workspaceFolder}/main.c",
+                "-Wall",
+                "-g"
+            ],
+            "group": "build",
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "detail": "Generated task by VS Code."
+        },
+        {
+            "type": "cppbuild",
+            "label": "C/C++: gcc générer le fichier actif",
+            "command": "/usr/bin/gcc",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Tâche générée par le débogueur."
+        }
+    ]
+}

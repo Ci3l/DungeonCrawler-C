@@ -1,0 +1,19 @@
+# Ignore compiled executables
+*.out
+*.exe
+*.o
+*.obj
+*.bin
+
+# Ignore temporary files and directories
+*.log
+*.tmp
+*.swp
+
+# Ignore VS Code settings (optional)
+.vscode/settings.json
+
+# Ignore other generated files
+*.dSYM/
+*.class
+*.pyc
