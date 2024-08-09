@@ -12,7 +12,7 @@
 ---
 
 ## Project Overview
-This project is a text-based Rogue-Like Dungeon Crawler game developed in C. The goal is to explore a randomly generated dungeon, defeat monsters, collect items, and ultimately escape the dungeon. This project serves as a comprehensive exercise in C programming, covering essential concepts such as control structures, functions, pointers, dynamic memory management, and file handling.
+This project involves creating a text-based Rogue-Like Dungeon Crawler game in C. The objective is to navigate a procedurally generated dungeon, battle monsters, gather items, and escape. This project is designed to prepare me for a course in my second year of a Bachelor’s program in Mathematical and Computational Sciences (MIDO) at Paris-Dauphine. It serves as a practical exercise in C programming, encompassing key topics such as control structures, functions, pointers, dynamic memory management, and file handling.
 
 ## Goals
 - **Preparation for Advanced C Programming**: This project is designed to cover all key concepts that will be explored in an upcoming university course. By completing this project, I aim to solidify my understanding of the C language and be well-prepared for the coursework.
